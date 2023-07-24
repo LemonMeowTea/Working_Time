@@ -28,7 +28,7 @@ function updateTime() {
     var secs = Math.floor(diff / 1000);
 
     // Update the webpage
-    if(diff > 0)
+    if(nowHongKong.getTime() != target.getTime())
     {document.getElementById("time_difference").textContent = 
         "You still have to work for : " + hours + " hours " + mins + " minutes " + secs + " seconds";
     } else
