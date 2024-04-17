@@ -7,7 +7,7 @@ function updateTime() {
 
     // Get the target time (18:30) in the Hong Kong timezone
     var target = new Date(nowHongKong);
-    target.setHours(18, 0, 0, 0);
+    target.setHours(19, 0, 0, 0);
 
     // If the current time is after 18:30, use the target time for the next day
     if (nowHongKong.getTime() > target.getTime()) {
